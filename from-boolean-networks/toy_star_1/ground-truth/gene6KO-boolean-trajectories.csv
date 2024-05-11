@@ -1,0 +1,11 @@
+,tf,gene1,gene2,gene3,gene4,gene5,gene6,gene7,gene8,gene9,gene10
+init,1,0,0,0,0,0,0,0,0,0,0
+init_to_steady1_1,1,0,1,0,0,0,0,0,0,0,0
+init_to_steady1_2,1,0,1,0,0,0,0,0,1,0,0
+init_to_steady1_3,1,0,1,1,0,0,0,0,1,0,0
+init_to_steady1_4,1,0,1,1,1,0,0,0,1,0,0
+init_to_steady1_5,1,1,1,1,1,0,0,0,1,0,0
+init_to_steady1_6,1,1,1,1,1,0,0,0,1,1,0
+init_to_steady1_7,1,1,1,1,1,1,0,0,1,1,0
+init_to_steady1_8,1,1,1,1,1,1,0,0,1,1,1
+steady1,1,1,1,1,1,1,0,1,1,1,1

@@ -1,0 +1,17 @@
+TF1 activates G2
+TF1 activates G3
+TF1 inhibits TF2
+TF1 activates G1
+TF2 inhibits TF1
+TF2 activates G6
+TF2 activates G5
+TF2 activates G4
+TF3 activates TF2
+TF3 activates TF1
+TF4 activates TF3
+TF5 activates TF4
+TF6 activates G8
+TF6 activates G9
+TF6 inhibits TF5
+TF6 activates G7
+TF7 inhibits TF6
