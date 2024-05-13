@@ -1,1 +1,1 @@
-- [ ] provide de-normalized synthetic counts
+- [x] provide de-normalized synthetic counts
