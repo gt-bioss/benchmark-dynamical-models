@@ -14,9 +14,9 @@ This repository contains a first attempt to generate synthetic datasets from gro
       Trajectories are stored in CSV format\
       Filenames are of the form `wt-boolean-trajectories.csv` for wild-type simulations and `MUTANT-boolean-trajectories.csv` for mutants (combinations of genes KO/UP).
   - `{benchmark_name}/traj`: synthetic scRNA-seq data for each Boolean trajectory\
-      Datasets are given in two versions:
-      - with dropouts and normalized pseudocounts (`{MUTANT}-normalized-scRNAseq-dropouts.csv`)
-      - without dropouts and normalized pseudocounts (`{MUTANT}-normalized-scRNAseq-nodropouts.csv`)
+      Datasets are given in four versions:
+      - rawcounts and normalized
+      - with and without dropouts
   - `{benchmark_name}/steady`: synthetic scRNA-seq data from steady states of each Boolean trajectory\
       (same versions as `traj`
   - `{benchmark_name}/timeseries`: timeseries of scRNA-seq data for each Boolean trajectory\
@@ -24,5 +24,4 @@ This repository contains a first attempt to generate synthetic datasets from gro
       Currently, we provide only data with dropouts and normalized pseudocounts.
 
 ## TODO
-- [ ] provide integer counts scRNA-seq data
 - [ ] links to other ressources containing such synthetic datasets
